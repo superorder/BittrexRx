@@ -1,5 +1,5 @@
 {
-	"name": "bittrex-rx",
+	"name": "@superorder/bittrex-rx",
 	"version": "1.2.2",
 	"description": "BittrexRx is a rxjs node wrapper for the Bittrex Api",
 	"scripts": {
@@ -57,10 +57,13 @@
 		"json2typescript": "^1.0.5",
 		"jsonic": "^0.3.0",
 		"node-fetch": "^2.1.2",
-		"rxjs": "^5.5.2",
 		"signalr-client": "0.0.17"
 	},
+	"peerDependencies": {
+		"rxjs": "^5.5.2"
+	},
 	"devDependencies": {
+		"rxjs": "^5.5.2",
 		"@types/jest": "22.2.3",
 		"@types/node-fetch": "1.6.9",
 		"@types/signalr": "2.2.35",
